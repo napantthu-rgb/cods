@@ -1,0 +1,46 @@
+.container{
+   color: aquamarine;
+   display: flex;
+   flex-direction: column;
+   font-weight: bold;
+   text-align:center;
+}
+.header,
+.sidebar,
+.main,
+.footer {
+    padding: 30px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.header{
+    background-color: cadetblue;
+} 
+.main{
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 500px;
+}
+.sidebar{
+    background-color: rgb(103, 103, 160);
+    width: 500px;
+}
+.footer{
+    background-color: brown;
+    height: px;    
+}
+.img_profile{
+    background-color: blue;
+    background-image:url(img/pp-4.jpg);
+    background-size: img/5- 45.jpg;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-top: 25px;
+}
